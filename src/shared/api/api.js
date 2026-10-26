@@ -2,7 +2,7 @@ import axios from "axios";
 import {getCookie} from "../helpers/helpers";
 
 export const $api = axios.create({
-  baseURL: `http://api.favorit-parts.ru/hs`
+  baseURL: `https://api.favorit-parts.ru/hs`
 })
 
 $api.interceptors.request.use((config) => {
