@@ -37,3 +37,9 @@ main {
 .product-card:hover .btn {
     opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+    .product-card .btn {
+        opacity: 1;
+    }
+}
