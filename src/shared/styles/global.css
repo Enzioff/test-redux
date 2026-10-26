@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.product-card {
+    cursor: pointer;
+}
+
+.product-card .btn {
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.product-card:hover .btn {
+    opacity: 1;
+}
